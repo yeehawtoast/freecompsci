@@ -1,3 +1,3 @@
 module.exports = {
-    publicPath: '/free-computer-science/'
-    }
+  publicPath: '/free-computer-science/'
+}
