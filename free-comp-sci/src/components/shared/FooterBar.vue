@@ -36,18 +36,22 @@
               </h3>
               <ul role="list" class="mt-4 space-y-3">
                 <li>
-                  <button
-                    class="text-sm leading-6 text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white"
-                  >
-                    About
-                  </button>
+                  <router-link to="/about">
+                    <button
+                      class="text-sm leading-6 text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white"
+                    >
+                      About
+                    </button>
+                  </router-link>
                 </li>
                 <li>
-                  <button
-                    class="text-sm leading-6 text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white"
-                  >
-                    Team
-                  </button>
+                  <router-link to="/team">
+                    <button
+                      class="text-sm leading-6 text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white"
+                    >
+                      Team
+                    </button>
+                  </router-link>
                 </li>
                 <li>
                   <button
@@ -56,13 +60,13 @@
                     Blog
                   </button>
                 </li>
-                <li>
+                <!-- <li>
                   <button
                     class="text-sm leading-6 text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white"
                   >
                     Success Stories
                   </button>
-                </li>
+                </li> -->
               </ul>
             </div>
 
@@ -70,32 +74,38 @@
               <h3 class="text-sm font-semibold leading-6 text-gray-900 dark:text-white">Support</h3>
               <ul role="list" class="mt-4 space-y-3">
                 <li>
-                  <button
-                    class="text-sm leading-6 text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white"
-                  >
-                    FAQ
-                  </button>
+                  <router-link to="/faq">
+                    <button
+                      class="text-sm leading-6 text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white"
+                    >
+                      FAQ
+                    </button>
+                  </router-link>
                 </li>
                 <li>
-                  <button
-                    class="text-sm leading-6 text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white"
-                  >
-                    Contribute
-                  </button>
+                  <router-link to="/contribute">
+                    <button
+                      class="text-sm leading-6 text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white"
+                    >
+                      Contribute
+                    </button>
+                  </router-link>
                 </li>
                 <li>
-                  <button
-                    class="text-sm leading-6 text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white"
-                  >
-                    Contact Us
-                  </button>
+                  <router-link to="/contact">
+                    <button
+                      class="text-sm leading-6 text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white"
+                    >
+                      Contact Us
+                    </button>
+                  </router-link>
                 </li>
               </ul>
             </div>
           </div>
 
           <div class="md:grid md:grid-cols-2 md:gap-8">
-            <div>
+            <!-- <div>
               <h3 class="text-sm font-semibold leading-6 text-gray-900 dark:text-white">Guides</h3>
               <ul role="list" class="mt-4 space-y-3">
                 <li>
@@ -113,24 +123,28 @@
                   </button>
                 </li>
               </ul>
-            </div>
+            </div> -->
 
             <div class="mt-10 md:mt-0">
               <h3 class="text-sm font-semibold leading-6 text-gray-900 dark:text-white">Legal</h3>
               <ul role="list" class="mt-4 space-y-3">
                 <li>
-                  <button
-                    class="text-sm leading-6 text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white"
-                  >
-                    Terms
-                  </button>
+                  <router-link to="/terms">
+                    <button
+                      class="text-sm leading-6 text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white"
+                    >
+                      Terms
+                    </button>
+                  </router-link>
                 </li>
                 <li>
-                  <button
-                    class="text-sm leading-6 text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white"
-                  >
-                    Privacy
-                  </button>
+                  <router-link to="/privacy">
+                    <button
+                      class="text-sm leading-6 text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white"
+                    >
+                      Privacy
+                    </button>
+                  </router-link>
                 </li>
               </ul>
             </div>

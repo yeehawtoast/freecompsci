@@ -1,6 +1,4 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import AboutMe from './components/AboutMe.vue'
 import NavBar from './components/shared/NavBar.vue'
 import FooterBar from './components/shared/FooterBar.vue'
 </script>
@@ -12,9 +10,8 @@ import FooterBar from './components/shared/FooterBar.vue'
     </div>
   </header>
 
-  <main>
-    <HelloWorld />
-    <AboutMe />
+  <main class="w-full dark:bg-gray-900">
+    <RouterView />
   </main>
 
   <footer>

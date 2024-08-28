@@ -24,13 +24,13 @@ Next, this is what you need to push for the gh-pages branch:
 Note: For the following commands, if you are using vue, just copy paste them, if you are using react replace dist with build.
 npm run build creates a directory with a production build of your app. In vue, that directory in named dist, in react is named build.
 
-    git checkout --orphan gh-pages Docs
+    git checkout --orphan gh-pages
     npm run build
-    git --work-tree dist add --all Docs (for react: replace dist with build)
-    git --work-tree dist commit -m 'Deploy' (for react: replace dist with build)
+    git --work-tree dist add --all
+    git --work-tree dist commit -m 'Deploy'
     git push origin HEAD:gh-pages --force
-    rm -r dist (for react: replace dist with build)
-    git checkout -f master
+    rm -r dist
+    git checkout -f main
     git branch -D gh-pages
 
 Congrats, you have now pushed to your fork and can now merge the forks.
