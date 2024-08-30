@@ -10,6 +10,8 @@ import TeamPage from '@/components/static_pages/Footer/TeamPage.vue'
 import TermsPage from '@/components/static_pages/Footer/TermsPage.vue'
 import ContributePage from '@/components/static_pages/Footer/ContributePage.vue'
 import FAQPage from '@/components/static_pages/Footer/FAQPage.vue'
+import BlogList from '@/components/blog/BlogList.vue'
+import BlogPost from '@/components/blog/BlogPost.vue'
 
 const routes = [
   { path: '/', name: 'home', component: HomePage },
@@ -21,7 +23,9 @@ const routes = [
   { path: '/faq', name: 'faq', component: FAQPage },
   { path: '/privacy', name: 'privacy', component: PrivacyPage },
   { path: '/team', name: 'team', component: TeamPage },
-  { path: '/terms', name: 'terms', component: TermsPage }
+  { path: '/terms', name: 'terms', component: TermsPage },
+  { path: '/blog', name: 'bloglist', component: BlogList },
+  { path: '/blog/:slug', name: 'blogpost', component: BlogPost, props: true }
 ]
 
 const router = createRouter({

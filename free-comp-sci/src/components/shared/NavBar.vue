@@ -25,7 +25,7 @@
             <router-link to="/support">
               <button>Support Us</button>
             </router-link>
-            <router-link to="/about">
+            <router-link to="/blog">
               <button>Blog</button>
             </router-link>
             <!-- <button>Sign in</button>
