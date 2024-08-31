@@ -1,1 +1,1 @@
-# free-computer-science.github.io
+# free-comp-sci
