@@ -1,3 +1,4 @@
 module.exports = {
-  publicPath: '/free-computer-science/'
-}
+  outputDir: 'dist',
+  assetsDir: 'assets',
+};
